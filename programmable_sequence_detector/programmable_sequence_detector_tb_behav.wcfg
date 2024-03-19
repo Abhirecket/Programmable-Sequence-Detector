@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="programmable_sequence_detector_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="programmable_sequence_detector_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="81.194 ns"></ZoomStartTime>
+      <ZoomEndTime time="230.659 ns"></ZoomEndTime>
+      <Cursor1Time time="163.440 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="212"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/data_i" type="logic">
+      <obj_property name="ElementShortName">data_i</obj_property>
+      <obj_property name="ObjectShortName">data_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/detect_o" type="logic">
+      <obj_property name="ElementShortName">detect_o</obj_property>
+      <obj_property name="ObjectShortName">detect_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/shift_q" type="array">
+      <obj_property name="ElementShortName">shift_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_q[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/shift_nxt" type="array">
+      <obj_property name="ElementShortName">shift_nxt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_nxt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/PROG_SEQUENCE" type="array">
+      <obj_property name="ElementShortName">PROG_SEQUENCE[5:0]</obj_property>
+      <obj_property name="ObjectShortName">PROG_SEQUENCE[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/programmable_sequence_detector_tb/dut/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
